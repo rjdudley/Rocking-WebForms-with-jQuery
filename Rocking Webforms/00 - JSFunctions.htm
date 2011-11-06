@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>00 - JavaScript Functions!</title>
+	<script type="text/javascript">
+		// a funtion outside the namespace with the same name
+		function pens() {
+			alert("Let's Go Pens!");
+		}
+
+		/* 
+		Use a namespace to prevent collisions with other libraries!
+		A namespace is really multiple functions/properties wrapped inside a single object.
+		*/
+
+		var msdn = {
+			pens: function () {
+				alert("Let's Go Pens!");
+			},
+			stillers: function () {
+				alert("Here we go Steelers, here we go!");
+			}
+		}
+
+		// We can also alias our namespace
+		var $ = msdn;
+
+	</script>
+</head>
+<body>
+	<h1>
+		Hello, Pittsburgh!</h1>
+	<script type="text/javascript">
+		// check out the Intellisense!
+
+		$.pens();
+
+	</script>
+</body>
+</html>

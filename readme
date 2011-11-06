@@ -5,3 +5,5 @@ Git repo created: 11/5/2011
 This is the sample code for my "Rocking WebForms with jQuery" talk.  You're free to use this coe to learn, but you need my permission to redistribute it or use it in one of your talks.
 
 The accompanying slides and the link to the MSDN webcast of this talk can be found at http://our.componentone.com/2011/08/30/slides-and-code-for-rocking-webforms-with-jquery/.
+
+You need Visual Studio 2010 to open this solution file, and be connected to the Internet to run the pages, since scripts are referenced from a CDN.
